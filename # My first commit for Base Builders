@@ -1,0 +1,9 @@
+# My first commit for Base Builders
+git init my-base-test
+cd my-base-test
+echo "Hello Base" > readme.md
+git add .
+git commit -m "My first commit for Base"
+git branch -M main
+git remote add origin https://github.com/ТВОЙ_НИК/my-base-test.git
+git push -u origin main
